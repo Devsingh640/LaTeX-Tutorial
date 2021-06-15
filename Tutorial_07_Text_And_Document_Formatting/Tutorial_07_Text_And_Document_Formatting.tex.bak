@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage{amsfonts, amssymb, amsmath}
+\parindent 0px
+\pagestyle{empty}
+\usepackage{hyperref}
+
+\begin{document}
+This will produce \textit{italicized} text.\\
+
+This will produce \textbf{bold face} text.\\
+
+This will produce \textsc{small cap} text.\\
+
+This will produce \texttt{typewriter font} text.\\
+
+Please visit my website at \texttt{http://abc.com}
+
+Please visit my website at \url{http://abc.com}
+ 
+Please visit my website at \href{http://abc.com}{My Website}
+
+\vspace{1cm}
+
+Please excuse \begin{large}me\end{large}.
+
+Please excuse \begin{Large}me\end{Large}.
+
+Please excuse \begin{huge}me\end{huge}.
+
+Please excuse \begin{Huge}me\end{Huge}.
+
+
+\end{document}
